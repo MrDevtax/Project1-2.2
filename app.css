@@ -1,6 +1,10 @@
 img{
-    display: block;
-    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    display: flex;
+    border-radius: 100%;
+    overflow: hidden;
+    object-fit: cover;
 }
 h1{
     display: flex;
@@ -9,4 +13,13 @@ h1{
 p{
     display: flex;
     justify-content: right;
+}
+body{
+    background-color: lightseagreen;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
