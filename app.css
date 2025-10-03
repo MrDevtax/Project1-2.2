@@ -15,11 +15,45 @@ p{
     justify-content: right;
 }
 body{
-    background-color: lightseagreen;
+    background-color: black;
+    color: orangered;
 }
 .container{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+::placeholder{
+    background-color: black;
+    color: orangered;
+    border-color: orangered;
+}
+input{
+    border-color: orangered;
+    border-style: dashed;
+}
+html{
+    border: 5px solid orangered;
+    padding: auto;
+}
+.tight-paragraph{
+    line-height: 1.2;
+    margin: 0;
+}
+.cv-section{
+    width: 100%;
+    padding: 20px;
+    border: 2px solid black;
+    box-sizing: border-box;
+}
+.cv-section-inner{
+    border: 2px solid orangered;
+    padding: 15px;
+}
+hr{
+    border-color: orangered;
+}
+input[type="submit"]{
+    background-color: orangered;
 }
